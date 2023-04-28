@@ -30,3 +30,4 @@ function solution(k, tangerine) {
 
 - entries, sort, reduce 메서드 체인을 이용해서 정답을 도출한다.
 - reduce 보다는 for 문을 이용하면 루프의 횟수를 줄일 수 있을 것으로 보인다. reduce 는 break 문이 불가능하기 때문에...
+- `obj[e] = obj[e]++ || 1;` 은 정상작동하지 않았다. 이유가 뭘까?
